@@ -1,0 +1,48 @@
+{
+    "editItems": [{
+        "name": "文案",
+        "comp": {
+            "type": "text",
+            "payload": {
+                "placeholder": "请输入按钮显示文案"
+            }
+        },
+        "property": {
+            "type": "data",
+            "name": "content"
+        }
+    }, {
+        "name": "填充色",
+        "comp": {
+            "type": "color",
+            "payload": {
+                "value": "#000"
+            }
+        },
+        "property": {
+            "type": "style",
+            "name": "backgroundColor"
+        }
+    }],
+    "property": {
+        "data": {
+            "content": "按钮内容",
+            "action": {
+                "type": 0,
+                "value": "https://www.baidu.com"
+            }
+        },
+        "style": {
+            "backgroundColor": "#4A90E2"
+          },
+          "moduleStyle": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0
+          }
+    },
+    "packages": {
+        "element-ui": "^2.9.1"
+    }
+}
