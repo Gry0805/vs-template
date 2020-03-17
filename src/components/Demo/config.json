@@ -26,14 +26,15 @@
     }],
     "property": {
         "data": {
-            "content": "按钮内容",
+            "content": "按钮名称",
             "action": {
                 "type": 0,
                 "value": "https://www.baidu.com"
             }
         },
         "style": {
-            "backgroundColor": "#4A90E2"
+            "backgroundColor": "#4A90E2",
+            "color": "#fff"
           },
           "moduleStyle": {
             "paddingTop": 0,

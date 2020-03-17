@@ -1,13 +1,13 @@
-import Button from './Button/index.vue';
+import Demo from './Demo/index.vue';
 
-import ButtonConfig from './Button/config.json';
+import DemoConfig from './Demo/config.json';
 
 const comps = {
-    Button
+    Demo
 }
 
 const config = {
-    ButtonConfig
+    DemoConfig
 }
 
 export{
